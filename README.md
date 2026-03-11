@@ -38,13 +38,21 @@ This repository consits of the basic content and knowledge regarding the Langcha
 
 - Using Pydantic output parser we can  do **Data Validation**, like if we need to fetch specific details like name, age or city we will be able to fetch that information.
 
+
+# Chains
+
+With the help of chains we can create pipelines for the complete process rather than manual method. With the help of chains we can automate the process.
+
+#### Types of chains:-
+
+- Simple chain
+- Sequential chain
+- Parallel chain
+- Conditional chain
+
+**chains** directory consists of different types of chains and their implementaions using opensource LLM.
+
 NOTE:- This repository consists of the Langchain content based on the opensource model. Some code may consists of close source models but most of the topics are covered using opensource models
-
-## Output Parser -> This folder consists of the string output parser
-## Json output parse -> This folder consists of the json output parser
-## Structured output parser -> This folder consists of the structured output parser
-## Pydantic output parser -> This folder consists of the pydantic output parser
-
 
 
 # Author
