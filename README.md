@@ -52,6 +52,43 @@ With the help of chains we can create pipelines for the complete process rather 
 
 **chains** directory consists of different types of chains and their implementaions using opensource LLM.
 
+# Runnables
+
+With the help of runnables we can use different types of runnables based on the type of process we are following.
+
+## Types of Runnables:-
+
+- Sequence
+- Parallel
+- Pass Through
+- Lambda
+- Branch
+
+# Documents Loader
+
+With the help of document loader we can load any type of document.
+I have also defined some of the documents loaders.
+
+## Types of Documents loaders:-
+
+- Text loader
+- pdf loader
+- webbase loader
+- directory loader
+- csv loader
+
+
+# Text Splitter
+
+With the help of text splitter we can spilt the large textual data into smaller chunks.
+
+## Types of Splitter
+
+- Length based
+- Text Structure based
+- Document Structure based
+- Semantic Meaning based.
+
 NOTE:- This repository consists of the Langchain content based on the opensource model. Some code may consists of close source models but most of the topics are covered using opensource models
 
 
