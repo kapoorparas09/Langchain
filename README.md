@@ -89,8 +89,25 @@ With the help of text splitter we can spilt the large textual data into smaller 
 - Document Structure based
 - Semantic Meaning based.
 
-NOTE:- This repository consists of the Langchain content based on the opensource model. Some code may consists of close source models but most of the topics are covered using opensource models
 
+# Vector Store
+
+In vector store we can store data in form of vectors .i.e. we can save data in form of numbers. Where we can add docs, modify the docs, delete the document.
+We can do the similarity serach to get the perfect results, we can do simple similarity serach or can do similarity search with score where we can get the score of the result like how much similar is the result to the query. Lower the similarity score better the result (~0).
+
+# Retrievers
+
+Retriever are used to retrive the content for the relevent query.
+
+## Types of Retrivers
+
+- Wikipedia retriever
+- Vector store retriever
+- Maximal Marginal Relevance (MMR)
+- Multi Query retriever
+- Contextual compression retriever
+
+NOTE:- This repository consists of the Langchain content based on the opensource model. Some code may consists of close source models but most of the topics are covered using opensource models
 
 # Author
 
