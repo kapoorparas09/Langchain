@@ -107,6 +107,19 @@ Retriever are used to retrive the content for the relevent query.
 - Multi Query retriever
 - Contextual compression retriever
 
+# Tools 
+
+Tools are used in langchain so that we can use some methods that an LLM can not perform or some methods that are only related to our dataset only.
+
+## Types of Tools
+
+- Built-in tools
+- Custom tools
+    - @tool (tool decorator)
+    - Structure and pydantic tool
+    - Base Tool
+
+
 NOTE:- This repository consists of the Langchain content based on the opensource model. Some code may consists of close source models but most of the topics are covered using opensource models
 
 # Author
