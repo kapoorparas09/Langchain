@@ -119,6 +119,9 @@ Tools are used in langchain so that we can use some methods that an LLM can not 
     - Structure and pydantic tool
     - Base Tool
 
+## Tool Binding 
+
+- In tool binding we will use various types of techniques like tool creation, tool binding and tool execution and finally executing the tool with LLM.
 
 NOTE:- This repository consists of the Langchain content based on the opensource model. Some code may consists of close source models but most of the topics are covered using opensource models
 
